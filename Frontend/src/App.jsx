@@ -33,7 +33,7 @@ const App = () => {
             />
             <button className="btn" onClick={()=>handleclick()}>Get Your URL </button>
           </div>
-          <div className="text-2xl mt-4 ml-64 font-mono">{URL1}</div>
+          <div className="text-2xl mt-4 ml-50 font-mono">{URL1}</div>
         </div>
       </div>
     </>
