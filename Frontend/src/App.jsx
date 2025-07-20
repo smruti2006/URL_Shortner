@@ -1,5 +1,4 @@
 import React from "react";
-import Axios from "axios"
 import axios from "axios";
 import { useState } from "react";
 
