@@ -11,7 +11,7 @@ const App = () => {
   const handleclick = async()=>{
     try {
       
-      const SURL=await axios.post("http://localhost:3000/url/sent",{
+      const SURL=await axios.post("https://urlsr.onrender.com/url/sent",{
         "LURL":URL
       })
       ShowURL(SURL.data.URL)
