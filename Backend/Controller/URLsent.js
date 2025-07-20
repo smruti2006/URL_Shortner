@@ -12,6 +12,7 @@ const CreateUrl = async (req, res) => {
         LURL, SURL
     })
     await newURL.save();
-    res.status(200).json({ message: "URL Short Succefully", URL: SURL })
+    const SSURL=`https://urlsr.onrender.com/smruti/${id}`
+    res.status(200).json({ message: "URL Short Succefully", URL: SSURL })
 }
 export default CreateUrl
