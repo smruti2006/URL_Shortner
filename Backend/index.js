@@ -9,6 +9,9 @@ dotenv.config()
 const port=process.env.PORT
 app.use(express.json())
 app.use(cors())
+app.get("/",(req,res)=>{
+  res.send("Hellow world")
+})
 //Database Connection
 const connectDB = async () => {
   try {
